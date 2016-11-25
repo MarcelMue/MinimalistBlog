@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Minimalist Blog</title>
+    <link>https://example.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Minimalist Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/MarcelMue&#34;&gt;MarcelMue&lt;/a&gt; 2016</copyright>
+    <lastBuildDate>Sat, 26 Nov 2016 00:24:18 +0100</lastBuildDate>
+    <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first post</title>
+      <link>https://example.com/post/first-post/</link>
+      <pubDate>Sat, 26 Nov 2016 00:24:18 +0100</pubDate>
+      
+      <guid>https://example.com/post/first-post/</guid>
+      <description>
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;h3 id=&#34;with-a-heading&#34;&gt;with a heading&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;var (
+	httpAddr   = flag.String(&amp;quot;http&amp;quot;, &amp;quot;:8080&amp;quot;, &amp;quot;Listen address&amp;quot;)
+	pollPeriod = flag.Duration(&amp;quot;poll&amp;quot;, 5*time.Second, &amp;quot;Poll period&amp;quot;)
+	version    = flag.String(&amp;quot;version&amp;quot;, &amp;quot;1.4&amp;quot;, &amp;quot;Go version&amp;quot;)
+)
+
+const baseChangeURL = &amp;quot;https://go.googlesource.com/go/+/&amp;quot;
+
+func main() {
+	flag.Parse()
+	changeURL := fmt.Sprintf(&amp;quot;%sgo%s&amp;quot;, baseChangeURL, *version)
+	http.Handle(&amp;quot;/&amp;quot;, NewServer(*version, changeURL, *pollPeriod))
+	log.Fatal(http.ListenAndServe(*httpAddr, nil))
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;another-heasing&#34;&gt;another heasing&lt;/h3&gt;
+
+&lt;p&gt;asdafghgsddy&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
