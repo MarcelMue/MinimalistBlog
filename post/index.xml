@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post-rsses on Minimalist Blog</title>
-    <link>https://example.com/post/index.xml</link>
+    <link>https://marcelmue.github.io/MinimalistBlog/post/index.xml</link>
     <description>Recent content in Post-rsses on Minimalist Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/MarcelMue&#34;&gt;MarcelMue&lt;/a&gt; 2016</copyright>
     <lastBuildDate>Sat, 26 Nov 2016 00:24:18 +0100</lastBuildDate>
-    <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcelmue.github.io/MinimalistBlog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first post</title>
-      <link>https://example.com/post/first-post/</link>
+      <link>https://marcelmue.github.io/MinimalistBlog/post/first-post/</link>
       <pubDate>Sat, 26 Nov 2016 00:24:18 +0100</pubDate>
       
-      <guid>https://example.com/post/first-post/</guid>
+      <guid>https://marcelmue.github.io/MinimalistBlog/post/first-post/</guid>
       <description>
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
